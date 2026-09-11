@@ -5,22 +5,344 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="description" content="CIEL — Collectif Intergénérationnel d'Échanges Léonnais. Un tiers-lieu à Léon pour échanger, partager et agir ensemble." />
   <title>CIEL — Un tiers-lieu à Léon</title>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Kalam:wght@400;700&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="styles.css" />
 </head>
-<body>
-  <header class="site-header">
-    <div class="container header-inner">
-      <a class="brand" href="#accueil" aria-label="CIEL - Accueil">
-        <span class="brand-mark" aria-hidden="true">🌳</span>
-        <span class="brand-copy">
-          <strong>CIEL</strong>
-          <small>Collectif Intergénérationnel<br>d’Échanges Léonnais</small>
-        </span>
-      </a>
 
-      <button class="menu-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Ouvrir le menu">
-        <span></span><span></span><span></span>
-      </button>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="#accueil">
+      <span class="brand-mark">🌳</span>
+      <span class="brand-name">CIEL</span>
+      <span class="brand-copy">
+        <small>Collectif Intergénérationnel<br>d'Échanges Léonnais</small>
+      </span>
+    </a>
+
+    <button class="menu-toggle" aria-label="Ouvrir le menu" aria-expanded="false">
+      ☰
+    </button>
+
+    <nav class="main-nav">
+      <a href="#accueil">Accueil</a>
+      <a href="#association">L'association</a>
+      <a href="#activites">Nos activités</a>
+      <a href="#actualites">Actualités</a>
+      <a href="#rejoindre">Nous rejoindre</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero" id="accueil">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <p class="eyebrow" data-content="hero.eyebrow">
+          ÉCHANGER • PARTAGER • AGIR ENSEMBLE
+        </p>
+
+        <h1 data-content="hero.title">
+          Un Tiers-lieu à Léon
+        </h1>
+
+        <p class="hero-lead" data-content="hero.lead">
+          Un lieu vivant, convivial et intergénérationnel pour créer du lien,
+          partager des savoir-faire et faire grandir les idées du territoire.
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#association">
+            Découvrir CIEL
+          </a>
+          <a class="btn btn-secondary" href="#rejoindre">
+            Nous rejoindre
+          </a>
+        </div>
+
+        <p class="hero-note" data-content="hero.note">
+          Toutes les générations ont leur place ici.
+        </p>
+      </div>
+
+      <div class="hero-visual">
+        <img src="assets/maquette-ciel.png" alt="CIEL, un tiers-lieu à Léon">
+      </div>
+    </div>
+  </section>
+
+
+  <section class="section" id="association">
+    <div class="container intro-grid">
+
+      <div>
+        <p class="section-kicker">L'ASSOCIATION</p>
+
+        <h2 data-content="association.title">
+          Un collectif pour faire vivre les liens locaux
+        </h2>
+
+        <p data-content="association.text">
+          Le Collectif Intergénérationnel d'Échanges Léonnais est une
+          association qui rassemble les habitants autour de projets,
+          d'activités et d'initiatives favorisant le lien social, la
+          solidarité et le partage entre toutes les générations.
+        </p>
+
+        <blockquote data-content="association.quote">
+          Un lieu pour se rencontrer, créer et agir ensemble.
+        </blockquote>
+      </div>
+
+      <div class="feature-grid">
+
+        <article class="feature-card">
+          <span>🤝</span>
+          <h3>Créer du lien</h3>
+          <p>
+            Favoriser les rencontres et les échanges entre les habitants
+            de toutes les générations.
+          </p>
+        </article>
+
+        <article class="feature-card">
+          <span>💡</span>
+          <h3>Partager</h3>
+          <p>
+            Transmettre des connaissances, des expériences et des
+            savoir-faire dans un esprit convivial.
+          </p>
+        </article>
+
+        <article class="feature-card">
+          <span>🌱</span>
+          <h3>Faire ensemble</h3>
+          <p>
+            Faire émerger des projets collectifs utiles à Léon et à
+            son territoire.
+          </p>
+        </article>
+
+        <article class="feature-card">
+          <span>🌈</span>
+          <h3>Pour tous</h3>
+          <p>
+            Un espace ouvert où enfants, jeunes, adultes et seniors
+            peuvent participer.
+          </p>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+
+  <section class="section section-soft" id="activites">
+    <div class="container">
+
+      <p class="section-kicker">NOS ACTIVITÉS</p>
+      <h2>Des moments pour apprendre, partager et se rencontrer</h2>
+
+      <div class="activity-grid">
+
+        <article class="activity-card">
+          <div class="activity-icon">🧶</div>
+          <h3>Ateliers & savoir-faire</h3>
+          <p>
+            Des ateliers créatifs, pratiques et participatifs animés
+            par les membres et les habitants.
+          </p>
+        </article>
+
+        <article class="activity-card">
+          <div class="activity-icon">☕</div>
+          <h3>Rencontres conviviales</h3>
+          <p>
+            Des temps informels pour discuter, partager un café et
+            faire connaissance.
+          </p>
+        </article>
+
+        <article class="activity-card">
+          <div class="activity-icon">🌿</div>
+          <h3>Projets locaux</h3>
+          <p>
+            Des initiatives collectives autour de la solidarité,
+            de l'environnement et de la vie locale.
+          </p>
+        </article>
+
+        <article class="activity-card">
+          <div class="activity-icon">🎨</div>
+          <h3>Culture & créativité</h3>
+          <p>
+            Des rendez-vous culturels et artistiques accessibles
+            à toutes et tous.
+          </p>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+
+  <section class="section" id="actualites">
+    <div class="container">
+
+      <p class="section-kicker">ACTUALITÉS</p>
+      <h2>Les prochains rendez-vous</h2>
+
+      <div class="news-layout">
+
+        <article class="news-item">
+          <div class="news-date">
+            <strong>15</strong>
+            <span>SEPT.</span>
+          </div>
+          <div>
+            <h3>Rencontre conviviale</h3>
+            <p>
+              Venez découvrir CIEL, rencontrer les membres du collectif
+              et partager vos idées.
+            </p>
+          </div>
+        </article>
+
+        <article class="news-item">
+          <div class="news-date">
+            <strong>28</strong>
+            <span>SEPT.</span>
+          </div>
+          <div>
+            <h3>Atelier participatif</h3>
+            <p>
+              Un temps d'échange et de création ouvert à toutes les
+              générations.
+            </p>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+
+  <section class="section join-section" id="rejoindre">
+    <div class="container join-grid">
+
+      <div>
+        <p class="section-kicker">NOUS REJOINDRE</p>
+        <h2>Envie de participer à l'aventure CIEL ?</h2>
+
+        <p>
+          Vous avez une idée, une envie, un savoir-faire à partager ou
+          simplement envie de rencontrer d'autres habitants ?
+          Vous êtes les bienvenus.
+        </p>
+      </div>
+
+      <div class="join-card">
+        <h3>Il y a mille façons de participer</h3>
+        <p>
+          Proposer une activité, donner un coup de main, participer aux
+          rencontres ou simplement venir découvrir le collectif.
+        </p>
+        <a class="btn btn-primary" href="#contact">Contactez-nous</a>
+      </div>
+
+    </div>
+  </section>
+
+
+  <section class="section" id="contact">
+    <div class="container contact-grid">
+
+      <div>
+        <p class="section-kicker">CONTACT</p>
+        <h2>Parlons-nous</h2>
+
+        <p>
+          Une question, une proposition ou envie de participer ?
+          Écrivez-nous.
+        </p>
+
+        <ul class="contact-list">
+          <li>
+            <strong data-content="contact.name">CIEL — Léon</strong>
+          </li>
+
+          <li>
+            📍 <span data-content="contact.address">Adresse à compléter</span>
+          </li>
+
+          <li>
+            ✉️ <span data-content="contact.email">contact@ciel-leon.fr</span>
+          </li>
+
+          <li>
+            ☎️ <span data-content="contact.phone">06 00 00 00 00</span>
+          </li>
+        </ul>
+      </div>
+
+      <form class="contact-form" id="contact-form">
+        <label>
+          Votre nom
+          <input type="text" name="name" required>
+        </label>
+
+        <label>
+          Votre e-mail
+          <input type="email" name="email" required>
+        </label>
+
+        <label>
+          Votre message
+          <textarea name="message" rows="5" required></textarea>
+        </label>
+
+        <button class="btn btn-primary" type="submit">
+          Envoyer
+        </button>
+
+        <p class="form-status"></p>
+      </form>
+
+    </div>
+  </section>
+
+</main>
+
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+
+    <div>
+      <strong>CIEL</strong>
+      <p>Collectif Intergénérationnel d'Échanges Léonnais</p>
+    </div>
+
+    <div>
+      <p>Un tiers-lieu à Léon</p>
+      <a class="admin-link" href="/admin/">Administration</a>
+    </div>
+
+    <div>
+      <p>© <span id="year"></span> CIEL</p>
+    </div>
+
+  </div>
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
