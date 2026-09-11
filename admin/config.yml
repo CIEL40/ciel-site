@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: VOTRE_COMPTE_GITHUB/ciel-site
+  repo: CIEL40/ciel-site
   branch: main
 
 locale: fr
