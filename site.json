@@ -1,0 +1,19 @@
+{
+  "hero": {
+    "eyebrow": "ÉCHANGER • PARTAGER • AGIR ENSEMBLE",
+    "title": "Un Tiers-lieu à Léon",
+    "lead": "Un lieu vivant, convivial et intergénérationnel pour créer du lien, partager des savoir-faire et faire grandir les idées du territoire.",
+    "note": "Toutes les générations ont leur place ici."
+  },
+  "association": {
+    "title": "Un collectif pour faire vivre les liens locaux",
+    "text": "Le Collectif Intergénérationnel d’Échanges Léonnais est une association qui rassemble les habitants autour de projets, d’activités et d’initiatives favorisant le lien social, la solidarité et le partage entre toutes les générations.",
+    "quote": "Un lieu pour se rencontrer, créer et agir ensemble."
+  },
+  "contact": {
+    "name": "CIEL — Léon",
+    "address": "Adresse à compléter",
+    "email": "contact@ciel-leon.fr",
+    "phone": "06 00 00 00 00"
+  }
+}
