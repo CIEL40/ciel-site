@@ -1,0 +1,41 @@
+backend:
+  name: github
+  repo: VOTRE_COMPTE_GITHUB/ciel-site
+  branch: main
+
+locale: fr
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
+
+collections:
+  - name: "site"
+    label: "Contenu du site"
+    files:
+      - name: "accueil"
+        label: "Accueil et coordonnées"
+        file: "content/site.json"
+        format: "json"
+        fields:
+          - label: "Bannière d'accueil"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Petit texte", name: "eyebrow", widget: "string" }
+              - { label: "Titre principal", name: "title", widget: "string" }
+              - { label: "Texte d'introduction", name: "lead", widget: "text" }
+              - { label: "Message", name: "note", widget: "string" }
+          - label: "Association"
+            name: "association"
+            widget: "object"
+            fields:
+              - { label: "Titre", name: "title", widget: "string" }
+              - { label: "Présentation", name: "text", widget: "text" }
+              - { label: "Citation", name: "quote", widget: "string" }
+          - label: "Contact"
+            name: "contact"
+            widget: "object"
+            fields:
+              - { label: "Nom", name: "name", widget: "string" }
+              - { label: "Adresse", name: "address", widget: "string" }
+              - { label: "E-mail", name: "email", widget: "string" }
+              - { label: "Téléphone", name: "phone", widget: "string" }
